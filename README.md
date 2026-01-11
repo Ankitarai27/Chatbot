@@ -168,7 +168,10 @@ Ensure environment variables are correctly set in the deployment platforms.
 
 ## 📌 Reference
 
-📺 For implementation reference and walkthrough, check the linked video tutorial provided in the project resources.
+📺 For implementation reference and walkthrough, check the linked video tutorial below:
+```
+https://drive.google.com/file/d/12AK1RDIRMHHgcaDgCqLmpj-34Rol-vxC/view?usp=sharing
+```
 
 ---
 
