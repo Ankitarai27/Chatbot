@@ -85,16 +85,16 @@ Create a .env file in the root directory:
 GEMINI_API_KEY=your_gemini_api_key
 ```
 ### 5️⃣ Run Backend Server
+
 ```
 uvicorn app.main:app
 ```
 
 #### Backend will run at:
+
 ```
 http://localhost:8000
-
 ```
-
 
 #### Swagger API Docs:
 
@@ -103,19 +103,22 @@ http://localhost:8000/docs
 MONGO_URL=your_mongodb_atlas_connection_string
 ```
 ## 🌐 Frontend Setup (Local)
+
 ### 1️⃣ Navigate to Frontend Folder
 ```
 cd frontend-react
 ```
+
 ### 2️⃣ Install Frontend Dependencies
+
 ```
 npm install
 ```
 ### 3️⃣ Start Frontend Server
-```
-npm run dev
 
 ```
-Frontend will run at:
+npm run dev
+```
+#### Frontend will run at:
 ```
 http://localhost:5173
