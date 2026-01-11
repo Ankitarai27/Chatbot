@@ -67,21 +67,24 @@ git clone https://github.com/your-username/your-repo.git
 cd Chatbot
 ```
 ### 2️⃣ Create Virtual Environment
+
 ```
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 ```
-###3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
+
 ```
 pip install -r requirements.txt
 ```
-###4️⃣ Environment Variables
+### 4️⃣ Environment Variables
+
 ```
 Create a .env file in the root directory:
 
 GEMINI_API_KEY=your_gemini_api_key
 ```
-###5️⃣ Run Backend Server
+### 5️⃣ Run Backend Server
 ```
 uvicorn app.main:app
 ```
@@ -99,16 +102,16 @@ Swagger API Docs:
 http://localhost:8000/docs
 MONGO_URL=your_mongodb_atlas_connection_string
 ```
-##🌐 Frontend Setup (Local)
-###1️⃣ Navigate to Frontend Folder
+## 🌐 Frontend Setup (Local)
+### 1️⃣ Navigate to Frontend Folder
 ```
 cd frontend-react
 ```
-###2️⃣ Install Frontend Dependencies
+### 2️⃣ Install Frontend Dependencies
 ```
 npm install
 ```
-####3️⃣ Start Frontend Server
+#### 3️⃣ Start Frontend Server
 ```
 npm run dev
 
