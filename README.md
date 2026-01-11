@@ -89,14 +89,14 @@ GEMINI_API_KEY=your_gemini_api_key
 uvicorn app.main:app
 ```
 
-Backend will run at:
+#### Backend will run at:
 ```
 http://localhost:8000
 
 ```
 
 
-Swagger API Docs:
+#### Swagger API Docs:
 
 ```
 http://localhost:8000/docs
@@ -111,7 +111,7 @@ cd frontend-react
 ```
 npm install
 ```
-#### 3️⃣ Start Frontend Server
+### 3️⃣ Start Frontend Server
 ```
 npm run dev
 
