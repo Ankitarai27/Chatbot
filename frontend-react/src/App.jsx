@@ -27,9 +27,9 @@ function App() {
     ]);
 
     setLoading(true);
-
+// https://chatbot-6jpp.onrender.com
     try {
-      const res = await fetch("https://stan-ai-qebr.onrender.com/chat", {
+      const res = await fetch("https://chatbot-6jpp.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
