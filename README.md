@@ -1,4 +1,4 @@
-# 🤖 STAN – Conversational AI Chatbot
+# 🤖 Conversational AI Chatbot
 
 A modern, full-stack **Conversational AI Chatbot** built with **FastAPI**, **React (Vite)**, and **Google Gemini**. STAN delivers **context-aware conversations** by intelligently storing and recalling recent chat history, enabling more natural, human-like interactions.
 
